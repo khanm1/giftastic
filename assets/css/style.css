@@ -1,0 +1,26 @@
+.memeDiv {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+button {
+    margin: 10px 10px 10px 10px;
+}
+
+body {
+    background-image: url("darkness.png");
+}
+
+h1 {
+    color: #42B742;
+}
+
+label {
+    color: #42B742;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+input {
+    margin: 0 10px 0 10px; 
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>#GifTastic</title>
+    <!-- linking Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- linking my style sheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <style>
+    .memeDiv {
+        float: left;
+        margin: 10px 10px 10px 10px;
+    }
+
+    button {
+        margin: 10px 10px 10px 10px;
+    }
+    
+    body {
+        background-image: url("darkness.png");
+    }
+
+    h1 {
+        color: #42B742;
+    }
+
+    label {
+        color: #42B742;
+        font-size: 20px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    input {
+        margin: 0 10px 0 10px; 
+    }
+    </style>
+</head>
+<body>
+    <div class = "container">
+    <h1>Magical Meme Buttons</h1>
+    <div id = "memeButtons"></div>
+    <br>
+    <form id = "meme-form">
+        <label for = "meme-input">Add a meme!</label>
+        <input type = "text" id = "meme-input">
+        <br><br>
+        <input class = "btn btn-secondary" id = "addMeme" type = "submit" value = "Submit">
+        <input class = "btn btn-secondary" id = "surprise" type = "submit" value = "Surprise!">
+    </form>
+    <br>
+    <div id = "gifsHere"></div>
+    </div>
+</body>
+
+<!-- linking JS and JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</html>
+
+</html>
