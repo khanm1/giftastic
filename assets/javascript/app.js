@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     // global variables
-    var topics = ["crying kim", "kermit", "crying jordan", "salt bae", "sips tea", "doge", "grumpy cat", "happy tom brady"]
+    var topics = ["happy mookie betts", "seinfeld", "crying jordan", "salt bae", "sips tea", "doge", "grumpy cat", "happy tom brady"]
     var surprise = ["condescending wonka", "success kid", "rickroll", "dab", "honey badger", "nyan cat", "cash me ousside"]
     var meme;
 
